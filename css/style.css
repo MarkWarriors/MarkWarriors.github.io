@@ -335,7 +335,7 @@ header {
 #colorlib-hire,
 #colorlib-contact,
 #colorlib-about {
-  padding: 7em 0;
+  padding: 2em 0;
   clear: both; }
 
 @media screen and (max-width: 768px) {
