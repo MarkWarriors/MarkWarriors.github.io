@@ -13,8 +13,8 @@
 * ======================================================= */
 body {
   font-family: "Inconsolata", monospace;
-  line-height: 1.8;
-  font-size: 20px;
+  line-height: 1.5;
+  font-size: 18px;
   background: #f0f0f0;
   font-weight: 300;
   letter-spacing: 1px;
@@ -57,7 +57,7 @@ a {
     outline: none; }
 
 p, span {
-  margin-bottom: 1.5em;
+  margin-bottom: 10px;
   font-weight: 400;
   font-family: "Inconsolata", monospace; }
 
@@ -69,7 +69,7 @@ h1, h2, h3, h4, h5, h6 {
   color: rgba(0, 0, 0, 0.8);
   font-family: "Inconsolata", monospace;
   font-weight: 400;
-  margin: 0 0 30px 0; }
+  margin: 0 0 20px 0; }
 
 ::-webkit-selection {
   color: #fcfcfc;
@@ -302,7 +302,7 @@ header {
           line-height: 1.5;
           margin-bottom: 10px;
           text-transform: uppercase;
-          letter-spacing: 1em;
+          letter-spacing: 4px;
           color: rgba(255, 255, 255, 0.6); }
           @media screen and (max-width: 768px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
@@ -345,13 +345,17 @@ header {
 .colorlib-light-grey {
   background: #fafafa; }
 
+.intro-socials {
+  margin-bottom: 20px; }
+
 .intro-heading {
-  margin-bottom: 3em; }
+  margin-bottom: 5px; }
   .intro-heading h2 {
-    font-size: 48px;
-    font-weight: 400;
+    font-size: 36px;
+    font-weight: 800;
     line-height: 1.5;
     margin-bottom: 1.5em;
+    margin-top: 1.3em;
     color: #494a4e;
     position: relative;
     text-transform: uppercase; }
@@ -392,8 +396,9 @@ header {
   margin-bottom: 3em; }
   .services .icon {
     float: left;
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
+    margin-left: 15px;
     display: table;
     text-align: center;
     background: whitesmoke;
@@ -404,13 +409,16 @@ header {
     .services .icon i {
       display: table-cell;
       vertical-align: middle;
-      font-size: 60px;
+      font-size: 50px;
       color: #494a4e; }
   .services .desc {
+    padding-top: 10px;
     padding-left: 100px; }
     .services .desc h3 {
+      text-transform: uppercase;
+      letter-spacing: 2px;
       color: #494a4e;
-      font-size: 28px; }
+      font-size: 22px; }
 
 .work-img {
   width: 100%;
@@ -706,7 +714,7 @@ header {
   .blog-entry blockquote {
     font-style: italic;
     color: #999999;
-    font-size: 20px; }
+    font-size: 16px; }
   .blog-entry ul li {
     margin-bottom: 20px; }
 
@@ -1145,12 +1153,12 @@ input[type="text"] {
   color: #494a4e; }
 
 #footer {
-  padding: 6em 0;
+  padding: 3em 0;
   display: block;
   width: 100%;
   background: #494a4e; }
   #footer h2 {
-    font-size: 30px;
+    font-size: 25px;
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 1px; }
