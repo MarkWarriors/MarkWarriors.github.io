@@ -225,7 +225,7 @@ header {
   overflow: hidden; }
 
 #colorlib-hero {
-  min-height: 300px;
+  min-height: 500px;
   background: #fff url(../images/loader.gif) no-repeat center center;
   width: 100%;
   float: left; }
@@ -240,7 +240,7 @@ header {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
-        min-height: 300px;
+        min-height: 500px;
         position: relative; }
         #colorlib-hero .flexslider .slides li .overlay {
           position: absolute;
@@ -269,15 +269,15 @@ header {
     #colorlib-hero .flexslider .slider-text {
       display: table;
       opacity: 0;
-      height: 300px !important;
+      height: 550px !important;
       z-index: 9; }
       #colorlib-hero .flexslider .slider-text > .slider-text-inner {
-        height: 300px !important; 
+        height: 500px !important; 
       }
       #colorlib-hero .flexslider .slider-text > .slider-text-inner {
         display: table-cell;
         vertical-align: middle;
-        height: 300px; }
+        height: 500px; }
         @media screen and (max-width: 768px) {
           #colorlib-hero .flexslider .slider-text > .slider-text-inner {
             text-align: center; } }
@@ -457,14 +457,14 @@ header {
         opacity: 1; } }
     .work-img .desc .tag {
       display: block;
-      color: rgba(0, 0, 0, 0.8);
+      color: rgba(0, 0, 0, 0.5);
       margin-bottom: 15px; }
       @media screen and (max-width: 768px) {
         .work-img .desc .tag {
           margin-bottom: 0; } }
     .work-img .desc span {
       font-size: 13px;
-      color: rgba(0, 0, 0, 0.8); }
+      color: rgba(0, 0, 0, 0.5); }
     .work-img .desc h3 {
       color: #494a4e;
       font-size: 38px; }
@@ -1116,7 +1116,7 @@ header {
       top: .3em;
       left: 0;
       font-size: 22px;
-      color: rgba(0, 0, 0, 0.8); }
+      color: rgba(0, 0, 0, 0.5); }
     .contact-info li a {
       color: #494a4e; }
 
