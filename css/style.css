@@ -347,7 +347,9 @@ header {
 
 .intro-socials {
   margin-bottom: 20px; }
-
+.no-title-heading {
+  margin-top: -50px !important;
+}
 .intro-heading {
   margin-bottom: 0.7em; }
   .intro-heading h2 {
