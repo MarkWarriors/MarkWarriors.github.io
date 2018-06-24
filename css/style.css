@@ -30,6 +30,74 @@ body {
 
 }
 
+.mchimg__wrap {
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  z-index: 1;
+}
+
+
+.mchimg__description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  height: 80px;
+  width: 80px;
+  font-size: 14px;
+  transition: opacity .5s, visibility .5s ;
+}
+
+.mchimg__description0 {
+  left: 5px;
+  top: 37px;
+  color: white;
+}
+
+.mchimg__description1 {
+  top: 5px;
+  left: 10px;
+  color: cyan;
+  transition-delay: 0.3s;
+}
+
+.mchimg__description2 {
+  top: 27px;
+  left: 50px;
+  color: orangered;
+  transition-delay: 0.6s;
+}
+
+.mchimg__description3 {
+  top: 65px;
+  left: 20px;
+  color: yellow;
+  transition-delay: .9s;
+}
+
+.mchimg__wrap:hover .mchimg__description0 {
+  visibility: visible;
+  opacity: 1;
+}
+
+.mchimg__wrap:hover .mchimg__description1 {
+  visibility: visible;
+  opacity: 1;
+}
+.mchimg__wrap:hover .mchimg__description2 {
+  visibility: visible;
+  opacity: 1;
+}
+.mchimg__wrap:hover .mchimg__description3 {
+  visibility: visible;
+  opacity: 1;
+}
+
 .black-opaque-background {
   padding: 1em;
   background-color: rgba(0,0,0,0.65);
