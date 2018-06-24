@@ -375,7 +375,7 @@ header {
           @media screen and (max-width: 768px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
               letter-spacing: 0;
-              text-transform: none; } }
+              text-transform: uppercase; } }
           #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 a {
             color: #494a4e;
             border-bottom: 1px solid rgba(14, 39, 251, 0.7); }
