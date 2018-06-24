@@ -415,7 +415,9 @@ header {
       color: #494a4e; }
   .services .desc {
     padding-top: 10px;
-    padding-left: 100px; }
+    padding-left: 100px; 
+    padding-right: 6px;
+    }
     .services .desc h3 {
       text-transform: uppercase;
       letter-spacing: 2px;
