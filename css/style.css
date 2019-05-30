@@ -25,42 +25,9 @@ body {
     height: 100%;
     width: 100%; }
 
-.project-header {
-    font-size: 30px;
-    background: #333333;
-    height: 50px;
-    color: white;
-    align-content: center;
-    display: grid;
-    padding-left: 20px;
-    margin-bottom: 20px;
-    
-}
-
-.project-header a {
-    color: white;
-    text-decoration: none !important;
-  }
-
 .item .container {
     height: 500px;
 
-}
-
-.project-info-box {
-  background: white;
-  padding: 1em;
-}
-
-.project-info{
-  padding: 2em 0 2em 0;
-  font-size: 18px;
-}
-
-.project-info h2{
-    font-size: 22px;
-    margin: 0 0 3px 0;
-    font-weight: 800;
 }
 
 .mchimg__wrap {
@@ -408,7 +375,7 @@ header {
           @media screen and (max-width: 768px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
               letter-spacing: 0;
-              text-transform: uppercase; } }
+              text-transform: none; } }
           #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 a {
             color: #494a4e;
             border-bottom: 1px solid rgba(14, 39, 251, 0.7); }
@@ -595,6 +562,7 @@ header {
       margin: 0 auto;
       display: table;
       margin-bottom: 2em;
+      background: #494a4e;
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
       -ms-border-radius: 50%;
@@ -605,8 +573,8 @@ header {
       .work-img .desc .icon i {
         display: table-cell;
         vertical-align: middle;
-        color: rgba(0, 0, 0, 0.75);
-        font-size: 40px; }
+        color: #fff;
+        font-size: 24px; }
   .work-img:hover {
     text-decoration: none; }
     .work-img:hover .overlay {
@@ -974,8 +942,8 @@ header {
   color: #fff;
   border: 2px solid #494a4e; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-    background: #2e6da4 !important;
-    border-color: #2e6da4 !important; }
+    background: #273dfb !important;
+    border-color: #273dfb !important; }
   .btn-primary.btn-outline {
     background: transparent;
     color: #494a4e;
