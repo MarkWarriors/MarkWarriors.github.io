@@ -26,7 +26,7 @@ body {
     width: 100%; }
 
 .item .container {
-    height: 500px;
+    height: 300px;
 
 }
 
@@ -104,7 +104,8 @@ h1.no-margin-bottom {
 
 .black-opaque-background {
   padding: 1em;
-  background-color: rgba(0,0,0,0.65);
+  border-radius: 15px;
+  background-color: rgba(0,0,0,0.75);
   color: white;
 }
 
@@ -297,7 +298,7 @@ header {
   overflow: hidden; }
 
 #colorlib-hero {
-  min-height: 500px;
+  min-height: 300px;
   background: #fff url(../images/loader.gif) no-repeat center center;
   width: 100%;
   float: left; }
@@ -312,7 +313,7 @@ header {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
-        min-height: 500px;
+        min-height: 300px;
         position: relative; }
         #colorlib-hero .flexslider .slides li .overlay {
           position: absolute;
@@ -341,15 +342,15 @@ header {
     #colorlib-hero .flexslider .slider-text {
       display: table;
       opacity: 0;
-      height: 550px !important;
+      height: 350px !important;
       z-index: 9; }
       #colorlib-hero .flexslider .slider-text > .slider-text-inner {
-        height: 500px !important; 
+        height: 300px !important; 
       }
       #colorlib-hero .flexslider .slider-text > .slider-text-inner {
         display: table-cell;
         vertical-align: middle;
-        height: 500px; }
+        height: 300px; }
         @media screen and (max-width: 768px) {
           #colorlib-hero .flexslider .slider-text > .slider-text-inner {
             text-align: center; } }
