@@ -30,6 +30,10 @@ body {
 
 }
 
+h1.no-margin-bottom {
+    margin-bottom: 0px !important;
+}
+
 .mchimg__wrap {
   height: 80px;
   width: 80px;
