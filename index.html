@@ -28,7 +28,7 @@
 	<link rel="shortcut icon" href="favicon.ico">
 
 	<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+	<script src="https://kit.fontawesome.com/8223efc452.js" crossorigin="anonymous"></script>
 	
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css?v=1">
@@ -285,27 +285,6 @@
 			</div>
 		</div>
 		
-		<div id="colorlib-counter" class="colorlib-counters">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-8 col-sm-offset-2 text-center animate-box intro-heading">
-						<h2>Useless Stats</h2>
-					</div>
-				</div>
-				<div class="row animate-box">
-					<div class="col-sm-10 col-sm-offset-1">
-						<div class="row">
-							<div class="col-sm-12 text-center">
-								<span class="colorlib-counter js-counter" id="
-													      ee" data-from="0" data-to="8366" data-speed="5000" data-refresh-interval="50"></span>
-								<span class="colorlib-counter-label">Coffees</span>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
 		<div id="colorlib-testimony" class="colorlib-light-grey">
 			<div class="container">
 				<div class="row">
@@ -416,14 +395,6 @@
 			</div>
 		</footer>
 	</div>
-
-    <script>
-    	var dayInMs = 24*60*60*1000;
-    	var startWorkDay = new  Date(2013, 5, 13);
-    	var today = new Date()
-    	var diffDays = Math.round(Math.abs((startWorkDay.getTime() - today.getTime())/(dayInMs)));
-    	document.getElementById("coffee").setAttribute("data-to", (diffDays * 4));
-    </script>
 
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
