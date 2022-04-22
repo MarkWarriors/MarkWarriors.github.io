@@ -27,7 +27,10 @@ body {
 
 .item .container {
     height: 300px;
+}
 
+.item2 .container2 {
+    height: 500px;
 }
 
 h1.no-margin-bottom {
