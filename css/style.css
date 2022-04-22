@@ -44,6 +44,9 @@ h1.no-margin-bottom {
   z-index: 1000;
 }
 
+h2.black-opaque-background {
+    margin: 10px;
+}
 
 .mchimg__description {
   position: absolute;
